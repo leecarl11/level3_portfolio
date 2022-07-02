@@ -145,7 +145,7 @@
 # print(10%3 == 0)
 
 #this runs based on a condition
-#ASSIGNED OPERATOR=
+#ASSIGNMENT OPERATOR=
 # num = 10
 # num2 = 20
 #the if statement does the first statement that's true and then goes down to carry out the next executable code. 
@@ -191,13 +191,20 @@
 #between the def and print line is the definition of the function and it's what is instructing our program
 #calling the function name that was created and this process will occur.
 #functons are used to repeat processes again and again
-def light_switch():
-    print("Who turned out the lights?")#action we want the function to take 
-light_switch()
-#installing parameters amount and aacnum
-def cash_withrawal(amount, accnum):
-    print(f"Withdrawing {amount} from account {accnum}")#action we want the function to take 
-cash_withrawal(300, 50449921)
+# def light_switch():
+#     print("Who turned out the lights?")#action we want the function to take 
+# light_switch()
+#amount and accnum are parameters and when called the explicit data we give them are called arguments
+# def cash_withrawal(amount, accnum):
+#     print(f"You have Withdrawn  {amount} from account {accnum}")#action we want the function to perform
+# cash_withrawal(300, 50449921)#300 is the argument that will fill the parameter amount and 50449921 fills the parameter accum.
+
+#LISTS
+#lists are written with sqaure brackets 
+coffee_order = [
+    "Alex - Cortado", "Ben - Latte", "Charlie - Whatever's new"
+]#this could be for any data types but in this instance we are using strings
+print(coffee_order)
 
 
 # while num < 10:
