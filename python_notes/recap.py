@@ -206,6 +206,11 @@ coffee_order = [
 ]#this could be for any data types but in this instance we are using strings
 print(coffee_order)
 
+fav_songs = [
+    "The foundations of decay - my chemical romance ", "Pandemonium - Killing Joke", "Jigsaw Falling in Plcae Radiohead"
+]
+
+print(fav_songs)
 
 # while num < 10:
 #     num +=1
