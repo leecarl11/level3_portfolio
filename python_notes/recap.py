@@ -212,6 +212,11 @@ fav_songs = [
 
 print(fav_songs)
 
+fav_games = [
+    "watchdogIV", "need for speed", "cyberphunk2077"
+]
+
+print(fav_games)
 # while num < 10:
 #     num +=1
 #     print(num)
