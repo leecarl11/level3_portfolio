@@ -285,10 +285,11 @@
 # print(fav_song[0])
 # print(fav_song[1])
 # print(fav_song[2])
-#ARRAY is any kind of collection in python,a list ,set ,dictionary and tuple are all arrays, a list is a kind of array. in python lists are iterable which means they can be used as sequence it can be iterated through(run through)one way to do this is for loop,LOOPS allow to repeat actions and a FOR LOOPS allows us to repeat actions for as many things they are  in the things we can sequence through 
+#ARRAY is any kind of collection in python,a list ,set ,dictionary and tuple are all arrays, a list is a kind of array. in python lists are iterable which means they can be used as sequence it can be iterated through(run through)one way to do this is for loop,LOOPS allow to repeat actions and a FOR LOOPS allows us to repeat actions for as many things they are  in the things we can sequence through, so we need a range o fthings to sequence through
 #to be able to print a list individually one way this could done is by using FOR LOOPS
 # fav_songs = ["the foundation of decay - my chemical romance ", "Pandemonium - killing joke", "Jigsaw falling into Place Radiohead"]
-#for loops
+
+#FOR LOOPS
 # #i is index
 # for i in fav_songs:
 #for i in range(0,10,1)
