@@ -201,29 +201,34 @@
 
 #LISTS
 #lists are written with sqaure brackets 
-coffee_order = [
-    "Alex - Cortado", "Ben - Latte", "Charlie - Whatever's new"
-]#this could be for any data types but in this instance we are using strings
-# print(coffee_order)
-print(coffee_order[2])#this is index position this gives the item on the list rather than character position in the strings 
-fav_songs = [
-    "The foundations of decay - my chemical romance ", "Pandemonium - Killing Joke", "Jigsaw Falling in Plcae Radiohead"
-]
-print(fav_songs)
-
-# fav_games = [
-#     "watchdogIV", "need for speed", "cyberphunk2077"
+# coffee_order = [
+#     "Alex - Cortado", "Ben - Latte", "Charlie - Whatever's new"
+# ]#this could be for any data types but in this instance we are using strings
+# # print(coffee_order)
+# print(coffee_order[2])#this is index position this gives the item on the list rather than character position in the strings 
+# fav_songs = [
+#     "The foundations of decay - my chemical romance ", "Pandemonium - Killing Joke", "Jigsaw Falling in Plcae Radiohead"
 # ]
-# print(fav_games)
+# print(fav_songs)
 
-print(fav_songs[1])#index position this goes for the whole item in a list 
-#replacing and re-assigning a new song to the list  
-fav_songs[1] = "Adam's dong - Blink 182"
-print(fav_songs)
-#using the len to find out how many items are in the list
-print(len(fav_songs))
+# # fav_games = [
+# #     "watchdogIV", "need for speed", "cyberphunk2077"
+# # ]
+# # print(fav_games)
 
-
+# print(fav_songs[1])#index position this goes for the whole item in a list 
+# #replacing and re-assigning a new song to the list  
+# fav_songs[1] = "Adam's dong - Blink 182"
+# print(fav_songs)
+# #using the len to find out how many items are in the list
+# print(len(fav_songs))
+# #the append method is used to add item to the end of the list
+# fav_songs.append("Army of Me - Bjork")
+# print(fav_songs)
+# #. pop is the method used to remove the last item from a list
+# #without parameter it will default and get rid of the last one  in the list of items, a parameter can be used just put and index paramater as an argument you don't need the square bracket because it already knows to take the integer as an index position, and it will get rid of the index position, there are many ore lists methods
+# fav_songs.pop(2)
+# print(fav_songs)
 
 # while num < 10:
 #     num +=1
@@ -276,11 +281,12 @@ print(len(fav_songs))
 # fav_songs.pop(2)
 # print(fav_songs)
 
+#LOOPS
 # print(fav_song[0])
 # print(fav_song[1])
 # print(fav_song[2])
-
-#a list is iterable
+#ARRAY is any kind of collection in python,a list ,set ,dictionary and tuple are all arrays, a list is a kind of array. in python lists are iterable which means they can be used as sequence it can be iterated through(run through)one way to do this is for loop,LOOPS allow to repeat actions and a FOR LOOPS allows us to repeat actions for as many things they are  in the things we can sequence through 
+#to be able to print a list individually one way this could done is by using FOR LOOPS
 # fav_songs = ["the foundation of decay - my chemical romance ", "Pandemonium - killing joke", "Jigsaw falling into Place Radiohead"]
 #for loops
 # #i is index
