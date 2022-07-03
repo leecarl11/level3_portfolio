@@ -204,19 +204,27 @@
 coffee_order = [
     "Alex - Cortado", "Ben - Latte", "Charlie - Whatever's new"
 ]#this could be for any data types but in this instance we are using strings
-print(coffee_order)
-
+# print(coffee_order)
+print(coffee_order[2])#this is index position this gives the item on the list rather than character position in the strings 
 fav_songs = [
     "The foundations of decay - my chemical romance ", "Pandemonium - Killing Joke", "Jigsaw Falling in Plcae Radiohead"
 ]
-
 print(fav_songs)
 
-fav_games = [
-    "watchdogIV", "need for speed", "cyberphunk2077"
-]
+# fav_games = [
+#     "watchdogIV", "need for speed", "cyberphunk2077"
+# ]
+# print(fav_games)
 
-print(fav_games)
+print(fav_songs[1])#index position this goes for the whole item in a list 
+#replacing and re-assigning a new song to the list  
+fav_songs[1] = "Adam's dong - Blink 182"
+print(fav_songs)
+#using the len to find out how many items are in the list
+print(len(fav_songs))
+
+
+
 # while num < 10:
 #     num +=1
 #     print(num)
