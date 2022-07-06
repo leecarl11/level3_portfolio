@@ -200,7 +200,7 @@
 # cash_withrawal(300, 50449921)#300 is the argument that will fill the parameter amount and 50449921 fills the parameter accum.
 
 #LISTS
-#lists are written with sqaure brackets 
+#lists are written with sqaure brackets and are iterable
 # coffee_order = [
 #     "Alex - Cortado", "Ben - Latte", "Charlie - Whatever's new"
 # ]#this could be for any data types but in this instance we are using strings
@@ -285,19 +285,44 @@
 # print(fav_song[0])
 # print(fav_song[1])
 # print(fav_song[2])
-#ARRAY is any kind of collection in python,a list ,set ,dictionary and tuple are all arrays, a list is a kind of array. in python lists are iterable which means they can be used as sequence it can be iterated through(run through)one way to do this is for loop,LOOPS allow to repeat actions and a FOR LOOPS allows us to repeat actions for as many things they are  in the things we can sequence through, so we need a range o fthings to sequence through
+#ARRAY is any kind of collection in python,a list ,set ,dictionary and tuple are all arrays, a list is a kind of array. in python lists are iterable which means they can be used as sequence it can be iterated through(run through)one way to do this is for loop,LOOPS allow to repeat actions and a FOR LOOPS allows us to repeat actions for as many things they are  in the things we can sequence through, so we need a range of things to sequence through like a list of items
 #to be able to print a list individually one way this could done is by using FOR LOOPS
 # fav_songs = ["the foundation of decay - my chemical romance ", "Pandemonium - killing joke", "Jigsaw falling into Place Radiohead"]
 
-#FOR LOOPS
-# #i is index
+#FOR LOOPS allows us to repeat actions for as many things they are in the things we can sequence through, so we need a range of things to sequence through like a list of items,because a list is iterable, the loop stops when i has no value to be and there is no other index position in that list,for loop is used for completing sequence specific amount of times, that amount of times being how many things there are in the sequence 
+
+#using the keyword for to start a for loop, for initiates the loop,and then we make a new variable for i in and then we define the thing we want to sequence through fav_songs (list)which is the list to be ierated through, this loop will now run for as many things there are in the list as many things it can sequence through ,and everytime it does, the variable i will always have a new value, i updates sequencially,the first time i run this loop i is the first item "foundations of decay", the second time i run this loop i is the second item it keeps going until it no longer has anything to sequence(pass through)through and there is no other thing for i to be,it's called i because it is referencing the index variable anything that has an index position in the thing we are sequencing through
+# fav_songs = [
+#     "The foundatioin of decay - my chemical romance", 
+#     "Pandemonium - Killing Joke", 
+#     "Jigsaw Falling into Place Radiohead",
+#     "Army of me _ Dre"
+# ]
+
 # for i in fav_songs:
+#     print("Thats a great song")
+#for i in fav_songs:
 #for i in range(0,10,1)
 #     print(i)
 # for i in range(2,10,2):
 #     print(i)
 #start/stop/step   
 # for i in range(10, -1,-1):
+#     print(i)    
+#we don't have to reference the variable
+#range function generates a sequnce of numbers for us to sequence through that's what we will iterate through
+#from start to finish there would be 4 values 1 value for each item it sequences/passes through in the loop 
+#it is called the i it is referencing the index variable anything that has an index position in the thing we are sequencing.
+#for loop runs for as many things there are in the things we are looking in 
+# favourite_drinks = ["coke", "fanta", "tonic"]
+# for i in favourite_drinks:
 #     print(i)
-
-
+# for i in range(10):
+#     print(i)
+# for i in range(0, 10):
+#     print(i)
+# for i in range(2, 10, 2):
+#     print(i)   
+#range only needs one parameter/argument to work, the number 10 is the stop value because range is actually a 3 parameters, we only need to give it 1st parameter, that parameter we need to give it is the stop value because range is written in slice notation. the first nunmber you give it is the start value starting with a 0 and the second value is the stop at value 10 and this will always stop short the sequence before 10, 9,and the 3rd number is the step number which in this case it's just by adding 1 number each time. the only parameter that we need is that stop value and it's goint go stop short. i moves within the ranks and each time changes it's value 
+for i in range(10, -1, -1):#10 is our start -1 stop (short) and -1 sequencing through that by minusing 1 each time taking 1 step back each time, range is used to give sequences to go through,  
+    print(i)
