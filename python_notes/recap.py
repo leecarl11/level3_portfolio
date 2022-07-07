@@ -323,6 +323,21 @@
 #     print(i)
 # for i in range(2, 10, 2):
 #     print(i)   
-#range only needs one parameter/argument to work, the number 10 is the stop value because range is actually a 3 parameters, we only need to give it 1st parameter, that parameter we need to give it is the stop value because range is written in slice notation. the first nunmber you give it is the start value starting with a 0 and the second value is the stop at value 10 and this will always stop short the sequence before 10, 9,and the 3rd number is the step number which in this case it's just by adding 1 number each time. the only parameter that we need is that stop value and it's goint go stop short. i moves within the ranks and each time changes it's value 
-for i in range(10, -1, -1):#10 is our start -1 stop (short) and -1 sequencing through that by minusing 1 each time taking 1 step back each time, range is used to give sequences to go through,  
-    print(i)
+#range only needs one parameter/argument to work, the number 10 is the stop value because range is actually a 3 parameters, we only need to give it 1st parameter, that parameter we need to give it is the stop value because range is written in slice notation. the first nunmber you give it is the start value starting with a 0 and the second value is the stop at value 10 and this will always stop short the sequence before 10, 9,and the 3rd number is the step number which in this case it's just by adding 1 number each time. the only parameter that we need is that stop value and it's going go stop short. i moves within the ranks and each time changes it's value 
+# for i in range(10, -1, -1):#10 is our start -1 stop (short) and -1 sequencing/stepping through that by minusing 1 each time taking 1 step back each time, range is used to give sequences to go through,  
+#     print(i)
+#the other kind of loop is the while loop
+# num = 0
+
+# while num != 10:
+#     print(num)
+#while a FOR LOOPS runs for a specific number of times for as many things it can sequence through, for as many things as there are in the things we are looking in,  it has a limit we can put a figure on how many times it will run, a WHILE LOOP on the other hand runs based on condition
+# num = 0
+# if num < 10:
+#     num += this is a += operator sign, this adds 2 to what ever num is (to the value of num) and updates the value to have that and then runs once because it's an if statement,while on the other hand 
+#     print(num)
+    
+num = 0
+while num < 10:
+    num += 1
+    print(num)# this runs until num becomes 10 else the while loop is just going to keep adding one till is gets to 10 and then stops running
