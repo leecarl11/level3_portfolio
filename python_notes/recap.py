@@ -1,4 +1,5 @@
-#import random
+from ast import Num
+import random
 # #print("this is my file")
 # #message = "how are you"
 
@@ -337,7 +338,26 @@
 #     num += this is a += operator sign, this adds 2 to what ever num is (to the value of num) and updates the value to have that and then runs once because it's an if statement,while on the other hand 
 #     print(num)
     
-num = 0
-while num < 10:
-    num += 1
-    print(num)# this runs until num becomes 10 else the while loop is just going to keep adding one till is gets to 10 and then stops running
+# num = 0
+# while num < 10:
+#     num += 5#this is the thing that gives the CONDITION (WHILE)a chance to change, if we don't have this CONDITION in here num will always be less than 10 and it will run forever 
+#     print(num)# this runs until num becomes 10 else the while loop is just going to keep adding one till is gets to 10 and then stops running, a while loop runs based on a condition, the last time the loopo runs is 9 and we add 1 to it to make it 10 and then it see the number 10 and it doesn't run again, the while loop is good when we don't know how many times we are going to do something, example of this is the random number generator, let make a random number generator we pick a number the computer picks a number and we see if they will match, and the computer will continue guessing till it matches my number. we can't use a FOR LOOP because we don't know how many times that's going to take, we use a while loop instead. so first things first we import the RANDOM LIBRARY and that will give all the random methods that we have, while loop is based on comparison of items
+
+#PSEUDOCODE
+# num 1 - my number
+# num 2 - computer's number
+
+# compare them 
+
+# while they don't match ,computer guesses again
+# when they match, say "Well Done"
+my_num = 13
+comp_num = random.randint(1,50)#using randint is because it's an integer 
+
+while my_num != comp_num:#this is the comparison while they don't match, we need to give the condition a chance to change, we have to generate a new random to make it change 
+#this code is going to run under a specific situation(comparing something) we need to give the while loop something it can compare to which is going to be a situation, within the while loop we need to give it a chance to change otherwise it will run forever.
+    print(f"The numbers {my_num} and {comp_num} do not match")
+    comp_num = random.randint(1,50)#this is the new random number that will be generated 
+#and when the loop is broken, when that condition is no longer true, we will break the loop and go to the next executable code.
+
+print(f"The numbers {my_num} and {comp_num} do match")
