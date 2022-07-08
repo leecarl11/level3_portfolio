@@ -75,6 +75,17 @@ str()#this converts to string data type
 # print(fav_songs[1])#this is index position - it is the start value
 # print(fav_songs[1:2:1])#this is actually whats happening -starting short of 2,and stepping by 1 at a time
 #create an integere data type 
-print (int(5.4))#Floating point this is converted to an integer
-print (str("54"))#String this is converted to a string 
-print(int(round(5.9)))#this rounds off the numbers 
+# print (int(5.4))#Floating point this is converted to an integer
+# print (str("54"))#String this is converted to a string 
+# print(int(round(5.9)))#this rounds off the numbers 
+# #the type function tell you what data type that is
+# #int 54, type int or any other conversion type,print type 
+# print(type(int(54)))
+# print(int("seven"))
+#what input takes from the user is always a string even if we type in numbers, which means we can become a little bit limited with the thing we can do with it.
+
+balance = 100
+deposit = float(input("How much do you want to deposit? "))
+balance +=deposit
+
+print(f"You have {balance}")
