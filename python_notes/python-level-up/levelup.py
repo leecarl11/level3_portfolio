@@ -1,5 +1,15 @@
-# int(5.4)
-# int("54")
+#CONVERTING DATA TYPES
+
+#METHODS are things we do to our data
+#PROPERTIES are things about our data 
+
+#are all methods, these are built in functions that convert one data type to another
+int()#this converts to integer data type
+float()#this converts to floating point data type
+str()#this converts to string data type
+#converting data types is called casting 
+# int(5.4)Floating point
+# int("54")String 
 
 # print(int(5.6))
 # print(float("seven"))
