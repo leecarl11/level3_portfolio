@@ -4,6 +4,9 @@
 #PROPERTIES are things about our data 
 
 #are all methods, these are built in functions that convert one data type to another
+from xml.sax.handler import property_interning_dict
+
+
 int()#this converts to integer data type
 float()#this converts to floating point data type
 str()#this converts to string data type
@@ -67,7 +70,11 @@ str()#this converts to string data type
 # print(odd_nums)
 
 #slice Notation
-fav_songs = ["the foundations of decay - my chemical romance", "Pandemonium - killing joke", "jigsaw falling into place radiohead", "army of me _Bkorks"]
-#start:stop:step
-print(fav_songs[1])#this is index position - it is the start value
-print(fav_songs[1:2:1])#this is actually whats happening -starting short of 2,and stepping by 1 at a time
+# fav_songs = ["the foundations of decay - my chemical romance", "Pandemonium - killing joke", "jigsaw falling into place radiohead", "army of me _Bkorks"]
+# #start:stop:step
+# print(fav_songs[1])#this is index position - it is the start value
+# print(fav_songs[1:2:1])#this is actually whats happening -starting short of 2,and stepping by 1 at a time
+#create an integere data type 
+print (int(5.4))#Floating point this is converted to an integer
+print (str("54"))#String this is converted to a string 
+print(int(round(5.9)))#this rounds off the numbers 
