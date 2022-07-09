@@ -1,5 +1,5 @@
 print("this is dictionaries")
-#dictionaries store data for us in a really specific way, just like actual dictionaries you can look things up, but not in alphabetic order,they are more like lists they store multiple values to one variable we denote a dictionary by using curly brackets{}these are used to define our dictionaries 
+#dictionaries store data for us in a really specific way, just like actual dictionaries you can look things up, but not in alphabetic order,they are more like lists they store multiple values to one variable we denote a dictionary by using curly brackets{}these are used to define our dictionaries,dictionary stores key:value pairs.Basically, they allow you to give each element a name  
 my_cat = {
     "name": "Salem",
     "colour": "Black",
