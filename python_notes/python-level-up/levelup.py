@@ -4,9 +4,6 @@
 #PROPERTIES are things about our data 
 
 #are all methods, these are built in functions that convert one data type to another
-from xml.sax.handler import property_interning_dict
-
-
 int()#this converts to integer data type
 float()#this converts to floating point data type
 str()#this converts to string data type
@@ -84,8 +81,57 @@ str()#this converts to string data type
 # print(int("seven"))
 #what input takes from the user is always a string even if we type in numbers, which means we can become a little bit limited with the thing we can do with it.
 
-balance = 100
-deposit = float(input("How much do you want to deposit? "))
-balance +=deposit
+# balance = 100
+# deposit = float(input("How much do you want to deposit? "))
+# balance +=deposit
 
-print(f"You have {balance}")
+# print(f"You have {balance}")
+#Comparison operators 
+#Falsy values are 
+#Empty strings "", empty list, empty tuples, empty, empty dictionaries
+#integer values 0
+#Floating point value 0.0
+#The value false itself and the data type none
+#Everything else is Truthy 
+
+# print("What is your name?")
+# name = input()
+
+# if name:
+#     print(f"Hello {name}, Welcome to innovate!")
+# else:
+#     print("You did not submit a NAME! home boy.")
+#this good for examples like the code above from earlier, where it doesn't matter what the data is just as long as some data comes through we can let a process happen,it's doesn't matter what they type in as a name as long as they type in something as long as name comes back as TRUTHY then that process can carry 
+# #before we do a direct comparison we were looking for something to equal something, and the whole statement to be evaluated as true, what we are lookping for in this case is if name returns us something that is considered a truthy value, which is anything that isn't falsy, empty strings are falsy,we need to look for a direct comparison(logical operators)
+    
+# day="Monday"
+# bank_hol = None
+
+# if day == "Saturday" or day=="Sunday" or bank_hol:
+#     print("Yay a day off")
+# else:
+#     print("Off to innovate we go!")
+#we also have the not operator we are aware of the does not equal to, comparison operator!= which basically means 'not eqaul to'there is also the not operator,what the 'not'operator does is to flip the value of the boolean, so if we print not true it will flip it and print false, if we say print not false it's going to flip it and it's going to be true, this can be very handy for us to write conditions in 
+
+print(not True)#expected:False
+print(not False)#expected:True
+
+allowed=["Andy", "Bob", "Carol", "Debbie", "Dhriti"]#using the not operator to determine who is coming in and who isn't coming into the club
+name=input("What is your name? ")
+
+while name not in allowed:
+    print("Your name isn't on the list")
+    print("Try again")
+    name=input("What is your name? ")
+
+print(f"You are welcome {name}," " you can come in. ")
+
+# print("What coat is always wet when you put it on? ")
+# answer=input("answer here: ")
+
+# if "paint" in answer:
+#     answer=input("what is the answer? ")
+#     print("you are right")
+    
+#TRY/EXCEPT
+
