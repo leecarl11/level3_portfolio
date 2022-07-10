@@ -10,8 +10,10 @@ my_cat = {
 my_dog = {
     "name": "Toby",
     "breed": "Keeshond",
-    "mood": "Barky"
+    "mood": "Barky",
+    "hungry": "hungry"
 }
+#Expected: dict_keys(["name", "colour", "mood"])this will reurn to us all the keys the dictionary is doing, all the key that that dictionary has 
 x=my_dog.keys()
 my_dog["age"]=2
 print(x)
@@ -29,4 +31,16 @@ print(my_dog.get("legs", "This key doesn't exist"))
 # my_list.append("hello")
 print(my_dog["mood"])
 print(my_dog["name"])
-print(f'My dog {my_dog["name"]} is a bit {my_cat["mood"]} today')
+#print(my_dog["hungry"])#this is the same way we would update a list, but with the list we would use an index positioning instead of key
+print(f'My dog {my_dog["name"]} is a bit {my_dog["hungry"]} today')
+#Using methods to identify dictionary items ,dictionaries are objects just like lists,tuples and so we do have access the methods we can use functions that have been written specifically to work on dictionaries the first one we have is the 
+#keys()
+#values()
+#items()
+#get()
+
+# my_list=["hello", "hello", "goodbye"]
+
+# y = my_list.count("hello")
+# my_list.append("hello")
+# # print(y) this is not the same for the dictionary
