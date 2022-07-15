@@ -9,18 +9,15 @@
     <title>JavaScript Events</title>
 </head>
 <body onload="checkCookies()">
-    <div class="flex-container-h">
-    <div>
-    
+    <nav>
         <a href="{{ url_for('my_view.index')}}">Return to Home</a>
         <a href="{{ url_for('my_view.page1')}}">Return to page1</a>
         <a href="{{ url_for('my_view.page2')}}">Return to page2</a>
         <a href="{{ url_for('my_view.page3')}}">Return to page3</a>
         <a href="{{ url_for('my_view.page4')}}">Return to page4</a>
         <a href="{{ url_for('my_view.page5')}}">Return to page5</a>
-    </div>
+    </nav>
     <div class="flex-container-h">
-    </div>
     {% block content %}
     {% endblock %}
     </div>
